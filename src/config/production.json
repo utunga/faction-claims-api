@@ -1,5 +1,5 @@
 {
-  "host": "faction-claims.herokuapp.com/",
+  "host": "faction-claims-api.herokuapp.com/",
   "port": "PORT",
   "public": "../public/",
   "paginate": {
@@ -8,6 +8,4 @@
   },
   // see MONGODB_URI aka 
   // heroku config:get MONGODB_URI
-  //
-  //"mongodb": "mongodb://heroku_tg2xtvbp:agg4tr7omsm13khdj9l93o853j@ds259878.mlab.com:59878/heroku_tg2xtvbp"
 }

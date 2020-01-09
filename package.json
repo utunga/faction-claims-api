@@ -1,7 +1,11 @@
 {
-  "name": "ooodaloops-server",
-  "description": "OODA loops Server",
-  "version": "0.0.0",
+  "name": "faction-claims-server",
+  "description": "FeathersJS Faction Claims server",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "10.13.0"
+  },
   "homepage": "",
   "main": "src",
   "keywords": [
@@ -14,10 +18,6 @@
   "directories": {
     "lib": "src",
     "test": "test"
-  },
-  "engines": {
-    "node": "^10.0.0",
-    "npm": ">= 3.0.0"
   },
   "scripts": {
     "test": "npm run eslint && npm run mocha",
