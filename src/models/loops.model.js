@@ -11,6 +11,7 @@ module.exports = function (app) {
     success: { type: Boolean, required: true, default: false },
     completed: { type: Boolean, required: true, default: false },
     week: { type: Number, default:0 },  //FIXME need logic to set this 
+    estimate: { type: Number },
     createdBy: { type: String },
     for:  { type: String }
   }, {
